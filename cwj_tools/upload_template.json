@@ -1,0 +1,8 @@
+{
+  "file": "cwj_dataset/breast_a.csv",
+  "head": 1,
+  "partition": 10,
+  "work_mode": 0,
+  "table_name": "breast_a",
+  "namespace": "wj"
+}

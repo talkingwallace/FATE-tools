@@ -1,0 +1,80 @@
+{
+  "module_name": "fast_secureboost_0",
+  "tests": {
+    "fast_depth_breast": {
+      "algo_param_list": {
+      "guest_depth": [2, 2, 4],
+      "host_depth": [3, 3, 1]
+      },
+      "generate_mode": "align",
+      "params": {
+        "task_type": "classification",
+        "work_mode": "layered"
+      },
+      "data_set_list": {
+          "guest": [{"name": "breast_b", "namespace": "wj"}],
+          "host": [{"name": "breast_a", "namespace": "wj"}]
+      }
+    },
+    "fast_depth_vehicle": {
+      "algo_param_list": {
+      "guest_depth": [2, 2, 4],
+      "host_depth": [3, 3, 1]
+      },
+      "generate_mode": "align",
+      "params": {
+        "task_type": "classification",
+        "work_mode": "layered"
+      },
+      "data_set_list": {
+          "guest": [{"name": "vehicle_scale_b", "namespace": "hetero"}],
+          "host": [{"name": "vehicle_scale_a", "namespace": "hetero"}]
+      }
+    },
+    "fast_depth_default_credit": {
+      "algo_param_list": {
+      "guest_depth": [2, 2, 4],
+      "host_depth": [3, 3, 1]
+      },
+      "generate_mode": "align",
+      "params": {
+        "task_type": "classification",
+        "work_mode": "layered"
+      },
+      "data_set_list": {
+          "guest": [{"name": "default_credit_b", "namespace": "hetero"}],
+          "host": [{"name": "default_credit_a", "namespace": "hetero"}]
+      }
+    },
+    "fast_depth_give_credit": {
+      "algo_param_list": {
+      "guest_depth": [2, 2, 4],
+      "host_depth": [3, 3, 1]
+      },
+      "generate_mode": "align",
+      "params": {
+        "task_type": "classification",
+        "work_mode": "layered"
+      },
+      "data_set_list": {
+          "guest": [{"name": "give_credit_b", "namespace": "hetero"}],
+          "host": [{"name": "give_credit_a", "namespace": "hetero"}]
+      }
+    },
+    "fast_depth_stu": {
+      "algo_param_list": {
+      "guest_depth": [2, 2, 4],
+      "host_depth": [3, 3, 1]
+      },
+      "generate_mode": "align",
+      "params": {
+        "task_type": "regression",
+        "work_mode": "layered"
+      },
+      "data_set_list": {
+          "guest": [{"name": "student-mat_b", "namespace": "hetero"}],
+          "host": [{"name": "student-mat_a", "namespace": "hetero"}]
+      }
+    }
+  }
+}

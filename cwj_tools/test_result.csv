@@ -1,0 +1,4 @@
+,fold_0.iteration_4,fold_0.iteration_9,fold_0.iteration_14,fold_0.iteration_19,fold_0.iteration_24,fold_0.iteration_29,fold_0.iteration_34,fold_0.iteration_39,fold_0.iteration_44,fold_0.iteration_49
+"tag: ./configs/fast_depth_guest_depth_2_host_depth_3.json,",3.588556,3.477802,3.455296,3.430879,3.398709,3.372593,3.366835,3.370833,3.393641,3.405726
+"tag: ./configs/fast_depth_guest_depth_3_host_depth_2.json,",3.584936,3.662979,3.633289,3.53971,3.514963,3.515821,3.513078,3.516862,3.539017,3.548199
+"tag: ./configs/fast_depth_guest_depth_4_host_depth_1.json,",3.569963,3.460418,3.435247,3.429878,3.472234,3.455508,3.476535,3.510995,3.549631,3.55612
